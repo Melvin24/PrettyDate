@@ -1,0 +1,42 @@
+/* 
+  Localizable.strings
+  PrettyDate
+
+  Created by John, Melvin (Associate Software Developer) on 03/11/2016.
+  Copyright © 2016 John, Melvin (Associate Software Developer). All rights reserved.
+*/
+//PrettyDate
+"pretty-date.Error" = "error";
+"pretty-date.Now" = "Now";
+"pretty-date.about a minute ago" = "about a minute ago";
+"pretty-date.in a minute" = "in a minute";
+"pretty-date.minutes ago" = "%d minutes ago";
+"pretty-date.minute ago" = "%d minute ago";
+"pretty-date.in minutes" = "in %d minutes";
+"pretty-date.in minute" = "in %d minute";
+"pretty-date.about-half-an-hour-ago" = "about half an hour ago";
+"pretty-date.will-update-in-half-an-hour" = "in half an hour";
+"pretty-date.about-an-hour-ago" = "about an hour ago";
+"pretty-date.will-update-in-an-hour" = "in an hour";
+"pretty-date.about-a-day-ago" = "about a day ago";
+"pretty-date.will-update-in-a-day" = "in a day";
+"pretty-date.hours ago" = "%d hours ago";
+"pretty-date.hour ago" = "%d hour ago";
+"pretty-date.in hours" = "in %d hours";
+"pretty-date.in hour" = "in %d hour";
+"pretty-date.in days" = "in %d days";
+"pretty-date.days ago" = "%d days ago";
+"pretty-date.weeks ago" = "%d weeks ago";
+"pretty-date.week ago" = "%d week ago";
+"pretty-date.in weeks" = "in %d weeks";
+"pretty-date.in week" = "in %d week";
+"pretty-date.on" = "on";
+"pretty-date.Today" = "today";
+"pretty-date.Tomorrow" = "tomorrow";
+"pretty-date.Yesterday" = "yesterday";
+"pretty-date.months ago" = "%d months ago";
+"pretty-date.month ago" = "%d month ago";
+"pretty-date.in months" = "in %d months";
+"pretty-date.in month" = "in %d month";
+
+
