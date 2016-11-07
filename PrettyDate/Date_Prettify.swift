@@ -8,12 +8,6 @@
 
 import Foundation
 
-enum Difference {
-    
-    
-    
-}
-
 extension Date {
     
     /**
@@ -62,7 +56,6 @@ extension Date {
               let numberOfDay     = calenderComponent.day else {
             return relativeTimeStringError()
         }
-        
         
         if numberOfDay != 0 {
             return constructDays(withDays: numberOfDay)
