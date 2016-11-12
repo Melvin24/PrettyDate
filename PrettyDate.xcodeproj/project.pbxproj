@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4CC2D5A62EE1E24B49DB6D9E /* Pods_PrettyDate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B37B1183F8A82AF0C5A253C /* Pods_PrettyDate.framework */; };
+		7A0F34761DD11D6500F00F52 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0F34751DD11D6500F00F52 /* Strings.swift */; };
 		7A15D5E81DC9265B007C8CC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A15D5E71DC9265B007C8CC8 /* AppDelegate.swift */; };
 		7A15D5EA1DC9265B007C8CC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A15D5E91DC9265B007C8CC8 /* ViewController.swift */; };
 		7A15D5ED1DC9265B007C8CC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A15D5EB1DC9265B007C8CC8 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 		3CBD32ECB85EF2EDA8DE0386 /* Pods-PrettyDateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrettyDateTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PrettyDateTests/Pods-PrettyDateTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4B37B1183F8A82AF0C5A253C /* Pods_PrettyDate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrettyDate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		51953B56D94F4BF21214FCDF /* Pods-PrettyDate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrettyDate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PrettyDate/Pods-PrettyDate.debug.xcconfig"; sourceTree = "<group>"; };
+		7A0F34751DD11D6500F00F52 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 		7A15D5E41DC9265B007C8CC8 /* PrettyDate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrettyDate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A15D5E71DC9265B007C8CC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A15D5E91DC9265B007C8CC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -90,6 +92,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		7A0F34741DD11D5800F00F52 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				7A0F34751DD11D6500F00F52 /* Strings.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
 		7A15D5DB1DC9265B007C8CC8 = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +123,7 @@
 		7A15D5E61DC9265B007C8CC8 /* PrettyDate */ = {
 			isa = PBXGroup;
 			children = (
+				7A0F34741DD11D5800F00F52 /* Shared */,
 				7A15D5E71DC9265B007C8CC8 /* AppDelegate.swift */,
 				7A15D5E91DC9265B007C8CC8 /* ViewController.swift */,
 				7A15D5EB1DC9265B007C8CC8 /* Main.storyboard */,
@@ -353,6 +364,7 @@
 			files = (
 				7A15D5EA1DC9265B007C8CC8 /* ViewController.swift in Sources */,
 				7A15D5E81DC9265B007C8CC8 /* AppDelegate.swift in Sources */,
+				7A0F34761DD11D6500F00F52 /* Strings.swift in Sources */,
 				7A15D5FA1DC92672007C8CC8 /* Date_Prettify.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
